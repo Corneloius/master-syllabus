@@ -8,54 +8,55 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 8.5in;
+            line-height: 1.5;
+            max-width: 95%;
             margin: 0 auto;
-            padding: 40px 20px;
+            padding: 20px 15px;
             background: #f5f5f5;
         }
 
         .content-wrapper {
             background: white;
-            padding: 30px;
+            padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
-            font-size: 24px;
-            font-weight: bold;
-            margin-top: 24px;
-            margin-bottom: 12px;
-            page-break-after: avoid;
-            border-bottom: 2px solid #ccc;
-            padding-bottom: 5px;
-        }
-
-        h2 {
-            font-size: 20px;
+            font-size: 22px;
             font-weight: bold;
             margin-top: 20px;
             margin-bottom: 10px;
             page-break-after: avoid;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 4px;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 16px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
         }
 
         h3 {
-            font-size: 16px;
-            margin-top: 18px;
-            margin-bottom: 8px;
+            font-size: 15px;
+            margin-top: 14px;
+            margin-bottom: 6px;
         }
 
         table {
             border-collapse: collapse;
             width: 100%;
-            margin: 15px 0;
+            margin: 12px 0;
+            font-size: 0.9em;
         }
 
         th,
         td {
             border: 1px solid #666;
-            padding: 8px;
+            padding: 6px;
             text-align: left;
             vertical-align: top;
         }
@@ -66,12 +67,12 @@
         }
 
         ul {
-            margin: 10px 0;
-            padding-left: 30px;
+            margin: 8px 0;
+            padding-left: 25px;
         }
 
         li {
-            margin: 5px 0;
+            margin: 4px 0;
         }
 
         .color-swatch {
@@ -167,6 +168,114 @@
             text-align: left;
         }
 
+        /* Office Hours Section */
+        .office-hours-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .office-hours-card {
+            background: #f9f9f9;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            padding: 15px;
+            border-left: 4px solid;
+        }
+
+        .office-hours-card.bsad50 {
+            border-left-color: #2E5090;
+        }
+
+        .office-hours-card.bsad222 {
+            border-left-color: #1F7A1F;
+        }
+
+        .office-hours-card.math101 {
+            border-left-color: #8B4513;
+        }
+
+        .office-hours-card.geog155 {
+            border-left-color: #4B0082;
+        }
+
+        .office-hours-card.mngt101 {
+            border-left-color: #B8860B;
+        }
+
+        .office-hours-card.mrkt257 {
+            border-left-color: #8B0000;
+        }
+
+        .office-hours-card h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .office-hours-card p {
+            margin: 6px 0;
+            font-size: 0.9em;
+        }
+
+        .office-hours-card .instructor-block {
+            margin: 12px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 4px;
+        }
+
+        .office-hours-card a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .office-hours-card a:hover {
+            text-decoration: underline;
+        }
+
+        /* Compact Layout for Course Sections */
+        .course-section {
+            margin: 15px 0;
+            padding: 12px;
+            background: #fafafa;
+            border-radius: 4px;
+        }
+
+        .compact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 12px;
+            margin: 12px 0;
+        }
+
+        .course-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 12px;
+            margin: 8px 0;
+        }
+
+        /* Compact Color Key */
+        .color-key-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 8px;
+            margin: 12px 0;
+        }
+
+        .color-key-list li {
+            margin: 3px 0;
+            font-size: 0.9em;
+        }
+
+        /* Tighter spacing for paragraphs */
+        p {
+            margin: 8px 0;
+        }
+
         @media print {
             .nav-links {
                 display: none;
@@ -181,6 +290,9 @@
             .content-wrapper {
                 box-shadow: none;
             }
+            .office-hours-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -194,7 +306,7 @@
 <p>This document consolidates syllabuses for 6 courses. Use the navigation links below to jump to specific sections.</p>
 
 <h1>COLOR KEY</h1>
-<ul>
+<ul class="color-key-list">
     <li><span class="color-swatch" style="background-color: #2E5090;" aria-label="Navy Blue color for BSAD 50"></span><span class="bsad50">BSAD 50 – Microsoft Office Skills → Navy Blue</span></li>
     <li><span class="color-swatch" style="background-color: #1F7A1F;" aria-label="Forest Green color for BSAD 222"></span><span class="bsad222">BSAD 222 – PrEP II: Career Development and Planning → Forest Green</span></li>
     <li><span class="color-swatch" style="background-color: #8B4513;" aria-label="Saddle Brown color for MATH 101"></span><span class="math101">MATH 101 – College Algebra → Saddle Brown</span></li>
@@ -209,6 +321,7 @@
     <a href="#calendar">Semester-at-a-Glance Calendar</a>
     <a href="#deadlines">Master Deadlines Table</a>
     <a href="#policies">University-Wide Policies</a>
+    <a href="#office-hours">Office Hours</a>
     <a href="#course-bsad50">BSAD 50</a>
     <a href="#course-bsad222">BSAD 222</a>
     <a href="#course-math101">MATH 101</a>
@@ -220,6 +333,64 @@
 
 </header>
 <main id="main-content">
+<h1 id="office-hours">CATEGORY FOUR: OFFICE HOURS</h1>
+<div class="office-hours-grid">
+    <div class="office-hours-card bsad50">
+        <h3 class="bsad50">BSAD 50 – Microsoft Office Skills</h3>
+        <p><strong>Instructor:</strong> Alicia Steggs Buchanan</p>
+        <p><strong>Office Hours:</strong> By appointment</p>
+        <p><strong>Email:</strong> <a href="mailto:alicia.steggs@unl.edu">alicia.steggs@unl.edu</a></p>
+        <p><em>Email to set up a time</em></p>
+    </div>
+    
+    <div class="office-hours-card bsad222">
+        <h3 class="bsad222">BSAD 222 – PrEP II: Career Development and Planning</h3>
+        <p><strong>Instructor:</strong> Section Instructor</p>
+        <p><strong>Office Hours:</strong> Check with your section instructor for their specific office hours</p>
+        <p><em>Contact via Canvas message</em></p>
+    </div>
+    
+    <div class="office-hours-card math101">
+        <h3 class="math101">MATH 101 – College Algebra</h3>
+        <p><strong>Instructor:</strong> Section Instructor</p>
+        <p><strong>Office Hours:</strong> Check with your section instructor for their specific office hours</p>
+        <p><em>Contact via Canvas or check course syllabus</em></p>
+    </div>
+    
+    <div class="office-hours-card geog155">
+        <h3 class="geog155">GEOG 155-250 – Elements of Physical Geography</h3>
+        <div class="instructor-block">
+            <p><strong>Lecture Instructor:</strong> James Benes, Ph.D.</p>
+            <p><strong>Office Hours:</strong> Tuesdays 2:00-3:00pm and Wednesdays 2:30-3:30pm or by appointment (preferred)</p>
+            <p><strong>Office:</strong> Oldfather Hall 926</p>
+            <p><strong>Email:</strong> <a href="mailto:jbenes2@unl.edu">jbenes2@unl.edu</a></p>
+        </div>
+        <div class="instructor-block">
+            <p><strong>Lab Instructor:</strong> Chang Li</p>
+            <p><strong>Office Hours:</strong> Tuesday 15:45-16:45 at BURN 127</p>
+            <p><strong>Office Location:</strong> Oldfather Hall 928</p>
+            <p><strong>Email:</strong> <a href="mailto:cli26@huskers.unl.edu">cli26@huskers.unl.edu</a></p>
+        </div>
+    </div>
+    
+    <div class="office-hours-card mngt101">
+        <h3 class="mngt101">MNGT 101 – Introduction to Business</h3>
+        <p><strong>Instructor:</strong> Shawntell Kroese</p>
+        <p><strong>Office Hours:</strong> Wednesdays 10-11 and by appointment</p>
+        <p><strong>Office Location:</strong> HLH 323</p>
+        <p><strong>Email:</strong> <a href="mailto:skroese2@unl.edu">skroese2@unl.edu</a></p>
+        <p><strong>Response Time:</strong> Within 24 hours. For emergencies, text: 402.980.3266</p>
+    </div>
+    
+    <div class="office-hours-card mrkt257">
+        <h3 class="mrkt257">MRKT 257-001 – Sales Communication</h3>
+        <p><strong>Instructor:</strong> Chad Mardesen</p>
+        <p><strong>Meeting Time:</strong> Tuesday and Thursday, 8:00 AM to 9:15 AM</p>
+        <p><strong>Meeting Location:</strong> HLH 020 (Auditorium B)</p>
+        <p><em>Contact via Canvas or check course syllabus for office hours</em></p>
+    </div>
+</div>
+
 <h1 id="calendar">SEMESTER-AT-A-GLANCE CALENDAR</h1>
 <p>This calendar consolidates all class sessions, assignments, and deadlines from all 6 courses, organized chronologically.</p>
 
@@ -611,6 +782,7 @@ Website: <a href="https://ssd.unl.edu/">https://ssd.unl.edu/</a></p>
 <h2>Additional University-Wide Course Policies</h2>
 <p>Additional details on university policies can be found at: <a href="https://go.unl.edu/coursepolicies">https://go.unl.edu/coursepolicies</a></p>
 
+<div class="course-section">
 <h1 id="course-bsad50" class="bsad50">COURSE: Microsoft Office Skills ΓÇö BSAD 50</h1>
 
 <h2 class="bsad50">Instructor Information</h2>
@@ -791,7 +963,9 @@ Website: <a href="https://ssd.unl.edu/">https://ssd.unl.edu/</a></p>
 
 <h2 class="bsad50">Notes</h2>
 <p>Visit the Frequently Asked Questions page for detailed instructions for getting started with the SIMNet software and solutions for common technical issues.</p>
+</div>
 
+<div class="course-section">
 <h1 id="course-bsad222" class="bsad222">COURSE: PrEP II: Career Development and Planning ΓÇö BSAD 222</h1>
 
 <h2 class="bsad222">Instructor Information</h2>
@@ -1102,7 +1276,9 @@ Website: <a href="https://ssd.unl.edu/">https://ssd.unl.edu/</a></p>
 
 <h2 class="bsad222">Notes</h2>
 <p>Keep an eye on Canvas email for follow-up on missing or incomplete assignments (check your class status via the "Grades" tab) to ensure you've completed the course. Assignments subject to change.</p>
+</div>
 
+<div class="course-section">
 <h1 id="course-math101" class="math101">COURSE: College Algebra ΓÇö MATH 101</h1>
 
 <h2 class="math101">Instructor Information</h2>
@@ -1320,7 +1496,9 @@ Website: <a href="https://ssd.unl.edu/">https://ssd.unl.edu/</a></p>
 <p>The Department of Mathematics Course Evaluation Form will be available through your Canvas account during the last two weeks of class. Evaluations are anonymous and instructors do not see any of the responses until after final grades have been submitted. Please complete the evaluation thoughtfully.</p>
 
 <p><strong>Time Commitment:</strong> This course requires a solid effort. To be successful, you should be prepared to study (and work math problems) a minimum of two hours each week outside class for each credit hour. We expect you to spend at least 6 hours per week outside of class working on mathematics.</p>
+</div>
 
+<div class="course-section">
 <h1 id="course-geog155" class="geog155">COURSE: Elements of Physical Geography ΓÇö GEOG 155-250</h1>
 
 <h2 class="geog155">Instructor Information</h2>
@@ -1560,7 +1738,9 @@ Regards, [or some other sign off]<br>
 <p>You earn your grade. College should be difficult, challenging and rewarding. If you aren't being challenged, please speak with the instructor -- if it is too challenging, the instructor can help offer ways and means to cope and strategize your learning.</p>
 
 <p>Before deciding to take the class pass/fail, please check with your advisor.</p>
+</div>
 
+<div class="course-section">
 <h1 id="course-mngt101" class="mngt101">COURSE: Introduction to Business ΓÇö MNGT 101</h1>
 
 <h2 class="mngt101">Instructor Information</h2>
@@ -1761,7 +1941,9 @@ Regards, [or some other sign off]<br>
 
 <h2 class="mngt101">Notes</h2>
 <p>This syllabus is a guideline. It can change based on instructor and student input, as well as unforeseen circumstances. As a condensed class, communication and completion are the keys to this course.</p>
+</div>
 
+<div class="course-section">
 <h1 id="course-mrkt257" class="mrkt257">COURSE: Sales Communication ΓÇö MRKT 257-001</h1>
 
 <h2 class="mrkt257">Instructor Information</h2>
@@ -1991,6 +2173,7 @@ Regards, [or some other sign off]<br>
 <p>If you would like to save a PDF copy of this syllabus for your records you can open your browser's Print dialog and set your print destination to "Save as PDF" or "Microsoft Print to PDF."</p>
 
 <p>For more information about the Writing Center, please visit unl.edu/writing. Grammarly is available for College of Business students at: go.unl.edu/grammarlysignup</p>
+</div>
 
 <!-- END OF COURSE-SPECIFIC SYLLABUSES -->
 
