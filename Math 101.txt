@@ -1,0 +1,370 @@
+COLLEGE ALGEBRA MATH101 SEC 001 Spring 2026
+Section 001
+
+MWF 8:00-9:15am
+
+Section 002
+
+MWF 9:30-10:45am
+
+Section 003
+
+MWF 11:00am-12:15pm
+
+Section 004
+
+MWF 12:30-1:45pm
+
+Section 101
+
+MW 6:30-8:20pm
+
+ 
+
+Math 101 Syllabus: Syllabus
+
+Textbook: https://mathbooks.unl.edu/
+
+Math Resource Center: It is important that you ask for help when you need it, and the Math Department is here to support you! In addition to your instructor’s scheduled office hours, the Math Department provides the Math Resource Center (MRC), a center staffed with graduate and undergraduate mathematics tutors. The MRC is free and open to all students in this course. You can use the MRC to study separately or with a group, get advice on assignments, or study with a tutor! Most of the hours are in-person with a few virtual options, the Zoom link for which can be found on the main MRC webpage.  
+
+Day 
+
+In-person in Avery 13 
+
+Virtual on Zoom 
+
+Monday - Thursday   
+
+12:30 am - 8:30 pm (CST) 
+
+8:30 pm - 9:30 pm (CST) 
+
+Friday 
+
+12:30 am - 2:30 pm (CST) 
+
+N/A 
+
+ 
+
+Full details about utilizing the MRC can be found here! Please read through the information so you know what to expect! Finally, please note that Avery 13 is located in the basement of Avery!  
+
+If you are using the side stairwell with the entrance near the parking lot, enter the stairwell, go down the stairs, and turn right! Keep following the hallway until the MRC is on your right. 
+If you are using the front stairwell (across from Burnett), enter the stairwell, go down the stairs, and go straight / left! Keep following the hallway until the MRC is on your left. Course Description
+Math 101, College Algebra, is a 3-credit course designed to deepen students’ understanding of functions and prepare them for success in subsequent mathematics courses.  In this course you will study many types of functions including linear, quadratic, polynomial, rational, exponential, logarithmic, and piecewise, and learn to use functions to model real-world situations. 
+
+Students with previous credit in any calculus course (that is, Math 104 or Math 106, 107, (or 208 or their honors versions) may not register for or earn credit toward their degree in this course or any other math course numbered 104 or below.  Written permission from the math department advisor to take this course will be granted for reasonable requests (for example, to take Math 102 after Math 104 to satisfy the prerequisites of Math 106).  If you have questions or need permission, please contact your academic advisor or the math department advisor. 
+
+Course Prerequisites: Appropriate score on the Math Placement Exam; or grade of P, C, or better in Math 100A. The Department of Mathematics will drop all students who do not satisfy this policy (review the Math Placement Policy at http://www.math.unl.edu/resources/undergraduate/mpe/).
+Textbook: Mathematics: PreCalculus Mathematics at Nebraska by Funk, Setniker, Uhing, Wakefield. This is a free digital textbook!
+
+ 
+
+Course Goals 
+Establish constructive attitudes about the value of math by highlighting its link to the real world.
+Develop a wide base of mathematical knowledge and ability including: 
+computational skills, 
+understanding of concepts, 
+geometric visualization, 
+problem-solving, reasoning, and generalizing. 
+Strengthen essential academic skills such as:  
+critical thinking, 
+writing, 
+giving clear verbal explanations, 
+understanding and using technology,– working collaboratively. 
+Gain the knowledge and ability needed to be successful in subsequent courses such as Math 104, Math 106, and Stat 218. 
+ 
+
+Your Responsibilities as a Class Member: 
+Regular, on-time attendance and active participation in class activities until class is dismissed. 
+Be ready to concentrate on math and discuss the day’s material. Once class starts, it is not a place for casual conversations, reading the newspaper, doing homework for other classes, etc. 
+Stay on task.  No texting, reading messages or browsing the web with a phone, tablet or computer. 
+Be respectful and polite.  Listen to your instructor and your fellow students when they are talking. 
+If you understand the mathematics, help others learn.  Mathematics is not a competitive game and we want everyone to succeed.  Explaining your understanding to others not only helps others learn but it is a great way to strengthen your own understanding of the mathematics. 
+In order to benefit from being in an interactive class, each student must come to class prepared. 
+Come to class having done the assigned reading and watched the assigned videos. 
+ 
+
+Why We Emphasize Writing: Students sometimes ask, “Why do we have to do all this writing?  Writing has nothing to do with mathematics!”  Our belief is that writing is a crucial part of the thinking process itself.  Writing explanations of your work will improve your understanding.  The more carefully and clearly you write your mathematics, the more likely it is to be correct, and the more likely you will be to remember it. 
+
+The answer to a math problem is not a number, but an explanation of how that number was obtained. 
+
+ 
+
+Why We Encourage a Team Approach to Learning and Doing Mathematics: By working in a team, you will learn the material more thoroughly and remember it better.  Out in the “real world”, you will spend most of your working life as part of a team and you can start working on being an effective team member now.  The ability to communicate (and understand) technical material is particularly important. 
+
+ 
+
+Working Productively to Learn and Help Others Learn as Members of a Team: The ability to work productively as part of a team and to ensure that everyone learns with and from the other members of the group is an essential part of this course.  When work is completed and assignments submitted, every member of the group should be able to explain how to solve each problem.  Here are some suggestions from students at Michigan who were asked what it takes for a team to function at its full potential. 
+
+Schedule enough meetings, and don’t schedule them at the last minute. 
+Go to every meeting and be on time.  (Woody Allen says, 80% of life is just showing up.) 
+Do the reading and work on each of the problems before the group meets 
+Find a way to express varying opinions in a friendly way. 
+Listen carefully.  Don’t interrupt and don’t tune out. 
+Make sure that everyone is equally involved. 
+Avoid making others feel dumb. 
+Stay on the topic. 
+Don’t rush to finish before everyone understands. 
+ 
+
+Course Materials: 
+Course Packet: Active learning in this course will be guided by the Math 101 Course Packet, authored by the Department of Mathematics to align with the course textbook and curriculum. You must order a copy of this course packet for pickup or delivery from the UNL Campus Store and be prepared to begin working in the course packet on the first day of class.
+Calculator: You are encouraged to utilize a scientific calculator or other technology to do routine computations. Online graphing calculators, such as DesmosLinksLinks to an external site. to an external site., may also be useful tools throughout the course. However, for all assessments, only a scientific (non-graphing) calculator is allowed.
+Digital Communication: The instructor will be posting announcements and updates about the course almost daily using Canvas Announcements or the Canvas Inbox feature.  It is your responsibility to check Canvas and your Canvas Inbox daily.  You may wish to adjust your Canvas notification preferences to make sure that you are receiving timely notifications about any course communication - see the following instructions for more information: https://community.canvaslms.com/videos/1072Links to an external site. 
+ 
+
+Course Structure and Expectations: 
+This course will likely be quite different from previous math courses you have taken. Rather than overloading you with numerous exercises of the exact same type, this course will focus on enhancing your understanding of algebraic skills through novel problems that require a heightened level of critical thinking and reasoning. In other words, rote memorization is likely not a skill that will help you in this course. 
+
+Lecture Format: A typical class will include a mixture of lecture by the instructor and group work and will cover approximately one section per day corresponding to the course’s online textbook. Lecture will be time for the instructor to go over any important material and concepts for the day’s lesson. The group work portion of the class will often resemble student being split into groups and to work collaboratively on problems from worksheets in your course packet. You are expected to engage in meaningful discussion and debate with your fellow group members.
+Course Packet: The worksheets in the course packetLinks to an external site. are designed to help you prepare for homework assignments and assessments. You do not need to do the worksheets before class as a large portion of each class period will be spent working on these worksheets. Although this will not be graded directly, you will be expected to fill out the course packet during class time as part of your learning and active participation in the class. 
+Online Homework: For each week of class, there is typically two to three corresponding online homework sets. Your instructor will inform you of the deadlines; it is your responsibility to complete them on time. Information on how to access the online homework can be found later in this syllabus.
+Attendance: Since much of the learning in this course occurs interactively during class time, regular, on-time attendance is essential. If you are sick and therefore unable to attend class, you should contact your instructor before class if possible.
+Time Commitment: This course requires a solid effort.  To be successful, you should be prepared to study (and work math problems) a minimum of two hours each week outside class for each credit hour.  I.e., we expect you to spend at least 6 hours per week outside of class working on mathematics.
+Academic Honesty: Academic honesty is essential to the existence and integrity of an academic institution. The responsibility for maintaining that integrity is shared by all members of the academic community. The University's Student Code of Conduct addresses academic dishonesty. Students who commit acts of academic dishonesty are subject to disciplinary action and are granted due process and the right to appeal any decision.
+Generative Artificial Intelligence: Academic integrity is a fundamental value of the University community. UNL students are expected to approach and complete their academic work with academic integrity. Students must read this syllabus and all other instructions carefully so that they know what is expected in terms of academic integrity.  Students are expected to do their own work, to be honest in the statements they make, to refrain from harming others, to refrain from improperly helping others, and to follow the rules. The unauthorized use of artificial intelligence to complete coursework is a violation of the University of Nebraska Student Code of Conduct Standards of Academic Integrity. Students who are unsure whether or not particular conduct is appropriate should ask the instructor.  Failing to act with academic integrity violates the University of Nebraska Student Code of Conduct and will be reported to the Office of Student Conduct & Community Standards. Students who violate academic integrity standards may receive academic sanctions, up to and including receiving a grade of “F” in the course. 
+  
+
+Our Grading System 
+All sections of this course use the same grading guidelines to ensure a fair, standardized evaluation process.  Your course grade will be based on the total points accumulated on the following assessments.  A discussion of each component of the course for which points are assigned is provided under Course Policies. 
+
+Assessment Category 
+
+Percentage of Total Grade
+Course Readiness Activity (CRA) 	5% 
+Active Participation 	20% 
+WeBWork (online homework) 	15% 
+Digital Learning Center (DLC) Outcomes	
+30% 
+
+In-Class Outcomes 	30%
+ 
+
+ 
+
+Assessment Format and Grading: 
+Course Readiness Activity (CRA): We want all students to be successful in this course, but from past experience we know that some students start the course having forgotten the mathematics background knowledge needed for success.  To ensure all students have retained and mastered this essential background knowledge and skills, we administer a Course Readiness Activity (CRA) during the first two weeks of class.  The activity assesses knowledge that a student should have learned in an Algebra II class in high school or by taking UNL’s Math 100A. Calculators are not permitted for the CRA.  The activity has 15 questions worth a total of 20 points, and the passing level is 16 out of 20 points.  If a student passes the CRA by Sunday January 18th at 11:59pm, they will receive 23/20 points as a congratulations for starting the semester well. Students that have attempted the CRA and attained a score of at least 10/20 by Sunday, January 18th at 11:59pm, will be guaranteed at least a score of 10/20. Students who meet the 16 out of 20 proficiency level by Tuesday, January 27th at 11:59pm will earn 20/20 points towards their course grade, thus getting off to a fast start in the course. Students who do not meet this standard receive 0/20 points. The CRA may be taken up to once every 24 hours until you achieve a passing score. The testing “window” begins Monday, January 12th and closes Tuesday, January 27th at 11:59pm. The CRA will be taken on WebWork and a link to the CRA can be found under the assignments tab. You will take the CRA unproctored and you are not allowed to use a calculator for the assessment.
+WeBWork Homework: We use an online system called WeBWorK to assess the individual component of your homework in Math 101.  The web homework gives you instant feedback, practice solving problems, and a reward for making the effort to learn.  You are permitted 6 attempts for each question.  Each assignment will be weighted evenly.  There will be approximately two or three assignment due each week starting the second week of class. Typically, each assignment will correspond to a section in the Course Packet. These are usually due the day after the next lecture. (For example, Section 1.4 in the Course Packet will be covered in class on Friday (Jan. 23rd) and the corresponding WeBWork assignment (Homework 04) will be due on Tuesday the next week (Jan. 27th).)  Many of the problems on these assignments come directly from the course packet, so the best way to prepare for these is to complete the Course Packet. Each assignment is worth 10 points, and your lowest two scores will be dropped. We offer the following advice as to how to be successful on the web homework component of your assessment. 
+Start early, when each set opens. This will give you more time to ask for help and resolve any issues that may arise.  
+Do the example homework set, Web Homework 00.  It will help you familiarize yourself with the homework system before working Web Homework 1. 
+Don’t submit partial answers.  You have six submissions per problem. 
+Work the problems out by hand.  Perhaps print a hardcopy of an assignment and solve the problems before entering your solutions into the WeBWorK system. 
+Preview your answers before submitting them. There is a preview button. This gives you a chance to see that what the computer is reading based on the syntax you typed into WeBWork before your final submission. 
+Watch your case: A capital X is different from x, and Pi is different from pi. 
+Watch your precision.  The system generally requires that numeric answers be correct to at least four or five significant figures.  I.e., if the answer is 3.472322, then 3.5 may be marked incorrect, but 3.4723 accepted. 
+Seek help using the "email my instructor" button when you get stuck on a question.
+Students may seek help solving WeBWorK problems from their instructor, the MRC, classmates, and even friends or tutors.  However, students are cautioned to be certain that completing WeBWorK assignments is a learning experience whose goal is to understand the material at a level that will enable you to work similar problems on an exam.  If you believe your answer to a question is correct, but WeBWorK marked it as incorrect, show your instructor a copy of your solution.  If the WeBWorK system does not give you appropriate credit, we certainly want to identify the problem and correct it.  If you have made a subtle mistake, either mathematical or with respect to syntax and how the software “reads” what you entered, we want to help you understand the mistake so that you can eliminate or minimize such errors. Finally, we have put together a page that might help with some common concerns which can be found here.
+Active Participation: We truly believe that your best experience in this class will come from participating in real-time. Since much of the learning in this course occurs interactively during class time, regular, on-time attendance is essential. Therefore, attendance will be taken each day of class and will count toward your total grade in this class. 
+However, we also understand that you may become sick and find yourself unable to attend class; if you are sick, you should NOT attend class. If you become so sick that you cannot attend class, then there are make-up opportunities at the discretion of your instructor. Note: This opportunity is only for students who are sick and is not a way to get out of attending class. We cannot emphasize enough how important it is that you are an active participant in real-time.
+If repeated absences (or arriving late to class) become excessive, it will significantly impact your performance in this class. Students anticipating more than one or two absences due to athletic commitments (or any other type of predictable commitment) should contact their instructor as soon as possible to discuss arrangements for the missed class(es). 
+ 
+
+This course will use an assessment format called mastery-based grading. In mastery-based grading, students receive credit only when they have displayed "mastery" of a course outcome, but they receive multiple attempts to do so. The idea behind this grading system is to focus on improvement rather than the grade.   
+
+In-Class Outcomes: There is a total of 14 outcomes to be completed in class. Students are allowed to use a non-graphing calculator on the in class outcomes. There will usually be one to two in-class outcomes each week and these will typically take place during the last 10 to 20 minutes of class time each Friday. For each in-class outcome, students will have an initial attempt, a second attempt (usually a week later), and a third attempt on the appropriate “Exam” day. See the class schedule for more information on the dates for these outcomes. For each outcome, there are four levels of performance that you can receive: 
+Level 
+
+Description 
+
+Mastery  (10/10 points) 
+
+The work is complete and clear, and any error is trivial and/or does not relate to the outcome that is being graded. The solution is easy to follow and justification is provided when necessary. 
+
+Sufficient Mastery    (7/10 points) 
+
+The solution displays almost complete understanding. The work is almost correct, but the justification is unclear or incomplete. 
+
+Partially Mastered  (5/10 points) 
+
+Partial understanding is evident, but there are significant gaps in the solution. Such gaps might relate to errors that are directly related to the outcome, communication of reasoning, or an inability to complete the problem. 
+
+Little or No Mastery (0/10 points) 
+
+Understanding could not be measured from the solution. Not enough work was submitted, significant errors were made, and/or the method used was inappropriate for the problem. 
+
+Examples of what the grading may look like for In-Class Outcomes can be found in the course files in the folder entitled "Examples Graded In-Class Outcomes".
+
+DLC Outcomes: There is a total of 19 outcomes worth 10 points each to be completed in the Digital Learning Center (DLC). After the corresponding content for an outcome is covered in class, the student will be able to attempt mastery of the corresponding outcome at the DLC. Students will receive one attempt per day for each outcome until its corresponding due date and will receive a raw score out of ten points. Note, students will NOT be permitted to use a calculator on the DLC Outcomes. The student is responsible for booking their own appointments at the DLC; a link to the DLC to book an appointment can be found here. The DLC Outcomes are organized into five "groupings" of outcomes. For each grouping of DLC Outcomes, the student can receive 5 points Extra Credit for receiving 5 or more out of 10 points on each outcome a week before the outcome groupings' deadline. These deadlines and groupings are summarized in the following table:
+Outcome Group	Outcomes in Group	Extra Credit Deadline	Due Date
+Chapters 1 and 2	1B,1C, 1D, 1F, 2A	February 8th	February 15th
+Chapter 3 and 4	3A, 3C, 3D, 4B, 4C	March 8th	March 15th
+Chapters 5 and 6	5A, 5B, 5D, 6A	April 5th	April 12th
+Chapters 7 and 8	7A, 7C, 8A, 8B, 8C	April 26th	May 3rd
+ 
+
+
+Setting Goals and Grade Breakdown 
+All students should set a goal for the grade they want to earn in Math 101 and make a commitment to do the work necessary to earn that grade.  During the semester, students may use the grade scale provided below as a minimum guarantee of how their work will be assessed.   
+
+Letter Grade 
+
+A+ 
+
+A 
+
+A- 
+
+B+ 
+
+B 
+
+B- 
+
+C+ 
+
+C 
+
+C- 
+
+D+ 
+
+D 
+
+D- 
+
+Percent Needed 
+
+96 
+
+90 
+
+87 
+
+84 
+
+80 
+
+77 
+
+74 
+
+70 
+
+67 
+
+64 
+
+60 
+
+57 
+
+During the last week of the semester, the Math 101 faculty convener will establish a Pre-final Grade Scale.  This will enable each student to know exactly what their grade is prior to the final exam and how much improvement is needed to earn the next highest grade.  Once the final exam is graded, the convener will establish a Final Exam Grade Scale.  A student’s grade is then determined by combining the two scales.  This approach permits the convener to consider the level of difficulty of mid-semester exams and the final exam before final grades are determined. 
+
+ 
+
+Passing Grade Guarantee: If you earn a 90% for active participation, receive a sufficient mastery or better on 90% (12 out of 14) of in-class outcomes and 90% (17 out of 19) of DLC Outcomes, then we will guarantee that your grade will be a C or better. You are required to attempt all in-class and DLC outcomes. 
+Department Grading Policies: The Department of Mathematics does not tolerate discrimination or harassment on the basis of race, gender, religion, or sexual orientation.  If you believe you have been subject to such discrimination or harassment, in this or any other math course, please contact the department.  If, for this or any other reason, you believe your grade was assigned incorrectly or capriciously, then appeals may be made to (in order) the instructor, the vice chair, the Department grading appeals committee, the College of Arts and Sciences grading appeals committee, and the University grading appeals committee. 
+ 
+
+Student Support and Feedback 
+Course Policies and Resources: The University of Nebraska-Lincoln provides important information on the following university-wide course policies and resources for all students, applicable to all enrolled in this course:  
+
+Attendance Policy 
+Academic Honesty Policy 
+Services for Students with Disabilities 
+Mental Health and Well-Being Resources 
+15th Week Policy 
+Emergency Procedures on Campus 
+Diversity & Inclusiveness 
+Sexual Misconduct Policy 
+Details about these policies and resources can be found on the following page: http://go.unl.edu/coursepolicies 
+ 
+
+Course Evaluation
+The Department of Mathematics Course Evaluation Form will be available through your Canvas account during the last two weeks of class.  You will get an email when the form becomes available.  Evaluations are anonymous and instructors do not see any of the responses until after final grades have been submitted.  Evaluations are important—the department uses evaluations to improve instruction.  Please complete the evaluation and take the time to do so thoughtfully. 
+
+Course Summary:
+Course Summary
+Date	Details	Due
+Fri Jan 16, 2026	Assignment MRC and Office Visit Optional Assignment	due by 11:59pm
+Tue Jan 20, 2026	Assignment HW 00 - Introduction	due by 11:59pm
+Assignment HW 01 - Functions	due by 11:59pm
+Thu Jan 22, 2026	Assignment HW 02 - Function Notation Input and Output	due by 11:59pm
+Sun Jan 25, 2026	Assignment HW 03 - Domain and Range	due by 11:59pm
+Tue Jan 27, 2026	Assignment HW 04 - Rates of Change	due by 11:59pm
+Assignment Link to CRA	due by 11:59pm
+Assignment Link to Practice CRA	due by 11:59pm
+Assignment Overall CRA Grade	due by 11:59pm
+Thu Jan 29, 2026	Assignment HW 05 - Linear Functions	due by 11:59pm
+Tue Feb 3, 2026	Assignment HW 06 - Finding Linear Functions AND Comparing Linear Functions	due by 11:59pm
+Sun Feb 8, 2026	Assignment HW 07 - Introduction to Piecewise Functions	due by 11:59pm
+Assignment Extra Credit DLC Outcomes Chapters 1 and 2	due by 11:59pm
+Thu Feb 12, 2026	Assignment HW 09 - Exponential Functions	due by 11:59pm
+Sun Feb 15, 2026	Assignment DLC Outcome 1B	due by 11:59pm
+Assignment DLC Outcome 1C	due by 11:59pm
+Assignment DLC Outcome 1D	due by 11:59pm
+Assignment DLC Outcome 1F	due by 11:59pm
+Assignment DLC Outcome 2A	due by 11:59pm
+Assignment Practice DLC Outcome 1B	due by 11:59pm
+Assignment Practice DLC Outcome 1C	due by 11:59pm
+Assignment Practice DLC Outcome 1D	due by 11:59pm
+Assignment Practice DLC Outcome 1F	due by 11:59pm
+Assignment Practice DLC Outcome 2A	due by 11:59pm
+Tue Feb 17, 2026	Assignment HW 10 - Comparing Exponential and Linear Growth	due by 11:59pm
+Thu Feb 19, 2026	Assignment HW 11 - Graphs Exponential Functions	due by 11:59pm
+Sun Feb 22, 2026	Assignment HW 12 - Compound Growth	due by 11:59pm
+Tue Feb 24, 2026	Assignment HW 13 - Continuous Growth	due by 11:59pm
+Sun Mar 1, 2026	Assignment HW 14 - Inverse Functions	due by 11:59pm
+Tue Mar 3, 2026	Assignment HW 15 - Properties of Logarithms	due by 11:59pm
+Thu Mar 5, 2026	Assignment HW 16 - Logarithms and Exponential Models	due by 11:59pm
+Sun Mar 8, 2026	Assignment Extra Credit DLC Outcomes Chapters 3 and 4	due by 11:59pm
+Tue Mar 10, 2026	Assignment HW 17 - Applications of Logarithm	due by 11:59pm
+Thu Mar 12, 2026	Assignment HW 18 - Function Composition	due by 11:59pm
+Sun Mar 15, 2026	Assignment DLC Outcome 3A	due by 11:59pm
+Assignment DLC Outcome 3C	due by 11:59pm
+Assignment DLC Outcome 3D	due by 11:59pm
+Assignment DLC Outcome 4B	due by 11:59pm
+Assignment DLC Outcome 4C	due by 11:59pm
+Assignment Practice DLC Outcome 3A	due by 11:59pm
+Assignment Practice DLC Outcome 3C	due by 11:59pm
+Assignment Practice DLC Outcome 4B	due by 11:59pm
+Assignment Practice DLC Outcome 4C	due by 11:59pm
+Tue Mar 24, 2026	Assignment HW 19 - Vertical and Horizontal Shifts	due by 11:59pm
+Thu Mar 26, 2026	Assignment HW 20 - Reflections and Even and Odd Functions	due by 11:59pm
+Sun Mar 29, 2026	Assignment HW 21 - Vertical Stretches and Compressions	due by 11:59pm
+Tue Mar 31, 2026	Assignment HW 22 - Horizontal Stretches and Compressions	due by 11:59pm
+Thu Apr 2, 2026	Assignment HW 23 - Combining Transformations	due by 11:59pm
+Sun Apr 5, 2026	Assignment Extra Credit DLC Outcomes Chapters 5 and 6	due by 11:59pm
+Tue Apr 7, 2026	Assignment HW 24 - Intro to Quadratic Functions	due by 11:59pm
+Thu Apr 9, 2026	Assignment HW 25 - Vertex of a Parabola	due by 11:59pm
+Sun Apr 12, 2026	Assignment DLC Outcome 5A	due by 11:59pm
+Assignment DLC Outcome 5B	due by 11:59pm
+Assignment DLC Outcome 5D	due by 11:59pm
+Assignment DLC Outcome 6A	due by 11:59pm
+Assignment HW 26 - Combining Functions	due by 11:59pm
+Assignment Practice DLC Outcome 5A	due by 11:59pm
+Assignment Practice DLC Outcome 5B	due by 11:59pm
+Assignment Practice DLC Outcome 5D	due by 11:59pm
+Assignment Practice DLC Outcome 6A	due by 11:59pm
+Tue Apr 14, 2026	Assignment HW 27 - Power Functions	due by 11:59pm
+Thu Apr 16, 2026	Assignment HW 28 - Polynomial Functions	due by 11:59pm
+Sun Apr 19, 2026	Assignment HW 29 - Short Run Behavior	due by 11:59pm
+Tue Apr 21, 2026	Assignment HW 30 - Long Run Behavior of Rational Functions	due by 11:59pm
+Thu Apr 23, 2026	Assignment HW 31 - Short Run Behavior of Rational Functions	due by 11:59pm
+Sun Apr 26, 2026	Assignment Extra Credit DLC Outcomes Chapters 7 and 8	due by 11:59pm
+Sun May 3, 2026	Assignment DLC Outcome 7A	due by 11:59pm
+Assignment DLC Outcome 7C	due by 11:59pm
+Assignment DLC Outcome 8A	due by 11:59pm
+Assignment DLC Outcome 8B	due by 11:59pm
+Assignment DLC Outcome 8C	due by 11:59pm
+Assignment Practice DLC Outcome 7A	due by 11:59pm
+Assignment Practice DLC Outcome 7C	due by 11:59pm
+Assignment Practice DLC Outcome 8A	due by 11:59pm
+Assignment Practice DLC Outcome 8B	due by 11:59pm
+Assignment Practice DLC Outcome 8C	due by 11:59pm
+Assignment In-Class Outcome 1A	 
+Assignment In-Class Outcome 1E	 
+Assignment In-Class Outcome 1G	 
+Assignment In-Class Outcome 2B	 
+Assignment In-Class Outcome 3B	 
+Assignment In-Class Outcome 3E	 
+Assignment In-Class Outcome 4A	 
+Assignment In-Class Outcome 4D	 
+Assignment In-Class Outcome 5C	 
+Assignment In-Class Outcome 5E	 
+Assignment In-Class Outcome 6B	 
+Assignment In-Class Outcome 7B	 
+Assignment In-Class Outcome 8D	 
+Assignment In-Class Outcome 8E	 
+Assignment Roll Call Attendance	

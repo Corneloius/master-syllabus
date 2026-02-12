@@ -1,0 +1,226 @@
+Course Syllabus
+Jump to Today
+BSAD50     Business Computer Applications
+Frequently Asked Questions
+If you have questions about the course, visit the Frequently Asked Questions page. This document includes detailed instructions for getting started with the SIMNet software used in this class, as well as solutions for common technical issues.
+
+📕 Course Description
+BSAD50 is a basic-skills computer course designed to ensure that you will be able to demonstrate a minimum degree of computer proficiency using basic business software packages. The course focuses on the Microsoft Office Suite (Word, PowerPoint, Excel and Access). 
+
+ Course Objectives
+The Microsoft Office Suite is used extensively in upper-level College of Business courses and in the workforce to organize, analyze and interpret business data. 
+
+Upon successful completion of the course, you will be able to demonstrate basic skills in Word, PowerPoint, Excel and Access, and possess the skills required to use this software to analyze business information.
+
+ By the end of this course, you will be able to:
+
+1)  Use PowerPoint to prepare professional presentations with features including animations, transitions and embedded videos.
+
+2)  Use Word to prepare business reports and letters including embedded objects, tables and advanced formatting.  
+
+3)  Use Excel to organize, display and analyze data using formulas, charts and conditional formatting.
+
+4)  Use Access to organize and track information in a relational database and generate reports. 
+
+Contact Information
+Instructor
+a woman with long blonde hair is smiling and facing the camera for a portrait with a black background
+
+ ALICIA STEGGS BUCHANAN
+
+ Instructor
+
+ alicia.steggs@unl.edu
+
+Office Hours
+Help with common questions can be found in the Frequently Asked Questions document posted in Canvas under Module 0 - Start Here. Please read this document before attempting the assignments for this course.
+
+By appointment - email alicia.steggs@unl.edu to set up a time
+
+Course Delivery and Requirements
+The BSAD 50 course is a zero-credit hour, pass/no pass course.  This course is a self-directed, completely online course. You do not need to attend any classes, and there are no lectures for this course.  Instead, you will work through tutorials using McGraw Hill’s SIMNet software to learn the features of the four Microsoft Office applications (PowerPoint, Word, Excel and Access). Most students find that substantial practice is necessary to master the material in this class, so please allow plenty of time to focus on the course material so that you can complete the course requirements by the specified deadlines. This is a five-week course, so you will need to devote a substantial amount of time during the next few weeks in order to complete the assignments by the deadlines.
+
+Course Grade
+Your grade in this course is based upon completion of three types of assignments (SIMBook Let Me Try Exercises, Practice Exam and Exam) for each of the four areas of Microsoft Office (PowerPoint, Word, Excel and Access).  You need to complete EVERY assignment, practice exam and exam with a minimum score of least 85% in order to pass this class.
+
+The BSAD50 course is structured as a mastery course, which means that the Let Me Try Exercises and practice exams can be taken an unlimited number of times and exams can be taken up to four times until mastery is achieved (defined as a score of 85% or higher on all assignments).  To achieve a grade of Pass in this class, you must do the following for each software application in the Office Suite (PowerPoint, Word, Excel and Access):
+
+Read the SIMBook chapters associated with the software application and complete the “Let Me Try” exercises embedded in these chapters. You only need to complete the “Let Me Try” exercises in each assigned chapter.  You do not need to do any of the cases, projects or other exercises in the chapters as everything EXCEPT the “Let Me Try” exercises is optional.  You must receive a score of 85% or higher on EACH of the PowerPoint, Word, Excel and Access Let Me Try exercises.  You can re-take the Let My Try Exercises an unlimited number of times prior to the assignment deadline.
+Complete the practice exam associated with the software application with a grade of at least 85% on the PowerPoint, Word, Excel and Access Practice Exams. You can take each practice exam an unlimited number of times prior to the practice exam deadlines. 
+Complete the exam associated with the software application with a grade of at least 85% on the PowerPoint, Word, Excel and Access Exams. The exams are similar to the practice exams, but you are limited to a maximum of four attempts on each exam.  
+If you receive a score of less than minimum score on any of the exams, practice exams or Let Me Try Exercises, you will receive a No Pass in the course, even if your overall exam average is above an 85%.
+You must complete the Let Me Try exercises, practice exams and exams by the dates specified below. Note that all deadlines are in Central Daylight Time. 
+Course Schedule Details
+                   Task                                                                    Due Date
+
+Complete PowerPoint Ch. 1-3 Let Me Try and Practice Exam
+
+Sunday, January 18th at 11:59 p.m. CST
+
+Complete PowerPoint Exam
+
+Monday, January 19th at 11:59 p.m. CST
+
+Complete Access Ch. 1-4 Let Me Try and Practice Exam
+
+Sunday, January 25th at 11:59 p.m. CST
+
+Complete Access Exam 
+
+Monday, January 26th at 11:59 p.m. CST
+
+Complete Word Ch. 1-4 Let Me Try and Practice Exam
+
+Sunday, February 1st at 11:59 p.m. CST
+
+Complete Word Exam       
+
+Monday, February 2nd at 11:59 p.m. CST
+
+Complete Excel Ch. 1-4 Let Me Try and Practice Exam   
+
+Sunday, February 8th at 11:59 p.m. CST
+
+Complete Excel Exam     
+
+Monday, February 9th at 11:59 p.m. CST
+
+Last Day to Finish Let Me Try Exercises, Practice Exams and Exams
+
+Sunday, February 15th at 11:59 p.m. CST
+
+All four modules and assignments (let me try exercises, practice exams, and exams) are available until 11:59 p.m. on the last day of the course.
+
+Exam Time Limit
+
+Note that each exam is timed.  Here are the allowed times and the minimum scores required for each exam:
+
+Exam
+
+# of Questions
+
+Allowed Time
+
+Minimum Score
+
+PowerPoint Exam
+
+40 questions
+
+50 minutes
+
+34
+
+Access Exam
+
+40 questions
+
+60 minutes
+
+34
+
+Word Exam
+
+50 questions
+
+70 minutes
+
+42
+
+Excel Exam
+
+50 questions
+
+70 minutes
+
+42
+
+ Required Materials
+
+This course requires the use of SIMNet course software from McGraw Hill. This course is participating in an Inclusive Access Pilot referred to as Access. This pilot is part of the STAR (https://teaching.unl.edu/star-initiative/) Initiative working to lower cost for textbooks for students at UNL.
+
+All required course materials including the e-book and access to the SIMNet software have been automatically loaded into the Canvas site for this course. No access codes are required for this process. If you experience any difficulties accessing your e-book, please reach out to McGraw Hill Tech Support at 800-331-5094 and email me at alicia.steggs@unl.edu  with your case number. Please do this ASAP to avoid difficulty accessing course material.
+
+The cost of this e-book/access to SIMNet will appear on your student bill as "Inclusive Access Material", and can be applied toward any available financial aid. If you have any questions on this, please contact Student Accounts at 402-472-2887 studentaccounts@unl.edu.
+
+Note that the purchase of the e-book gives you lifetime access to this material, so hang on to your login and password as you may find it helpful to use the tutorials to review for material needed for assignments in your upper-level business courses.  
+
+All of the course activities will be conducted through SIMNet, so you must have access to this software to complete the requirements for this course. You must access SIMNet through Canvas to link your grades on the SIMNet assignments to the Canvas grade book. To access SIMNet through Canvas, click on the first assignment in Module 1 in Canvas. The first time you do this, you will be asked to set up a SIMNet account. Please review the Frequently Asked Questions document under Start Here on the home page in Canvas for detailed directions for accessing SIMNet in Canvas.
+
+If you have previously taken the BSAD50 course and have already purchased the SIMNet software, you should Opt Out of the inclusive access materials. You need to Opt Out of the materials by Friday of the first week of class, to avoid being charged. If you are re-taking this course, email me at alicia.steggs@unl.edu with your name, student ID and email and I can transfer your access code from a previous semester so that you do not have to pay again for access to SIMNet. I will notify you once I have transferred your SIMNet access.  Once you receive my notification (NOT before), you should access SIMNet through Canvas by clicking on the first assignment in Module 1 in Canvas. Sign in using your previous username and password. Please see the Frequently Asked Questions Document in Canvas for more information.
+
+Computer Requirements
+This course is 100% online, so you need a desktop computer or laptop to complete the course material. The SIMnet operating system, which you will sync with in Canvas, is ran via a web browser. You CANNOT run SIMnet using Safari. In order for SIMnet to work properly, you must use either Chrome or FireFox web browsers.
+
+Alternately, you can use the computers located in the CoB Teaching and Learning Center located on the lower level of the College of Business, or the computers in the two computer classrooms (CoB 36 and CoB 104).  The computers located in the computer classrooms can be used when classes are not being held in these classrooms.  Computers equipped with Office 365 are also available at:
+
+Andrews RM 18   9AM-9PM M-F
+Henzlik RM 123    8AM-8 PM M-F
+
+Nebraska Union (City Campus – 1st Floor West of Chick-fil-a) - 24/7. 
+
+In addition, students can check out laptops from the CoB Technical Solutions office (east side of the Atrium), City Union or from Henzlik Hall for short term use.
+
+Disclaimer on Technology:
+
+UNL and McGraw Hill will do their very best to keep Canvas and SIMNet systems operating at all times. Yet, there are numerous technology related problems that may create obstacles for the successful completion of this course. Regardless of electronic or any other obstacles, it is the student's responsibility to complete the course and see to it that all assignments and exams are successfully completed as specified. The instructor or UNL cannot be responsible for computer software or hardware issues or for any lost materials over the Internet.
+
+The computers in the College of Business and UNL computer labs meet all of the requirements for the course and are available for use by students.
+
+If you are using your personal computer, it must meet the minimum requirements as stated on the SIMNet website. Personal computers should have a DSL, Cable or T1 connection. A wireless internet connection may cause issues with the SIMNet simulations because it may drop the connection and interrupt the transfer of data. Students are responsible for planning ahead in order to allow for technology-related problems and are responsible for acquiring the necessary hardware, software, and Internet access to permit them to access this course and the course materials.
+
+Technical Support
+If you are experiencing technical difficulties while you are using SIMNet, you should:
+
+Try the remedies outlined in the Frequently Asked Questions document.
+Contact McGraw Hill’s technical support line at 800-331-5094. Alternately, you can get help by clicking the ? symbol on the horizontal bar at the top of the SIMNet screen.  Click the SIMNet Instant Help button on the next screen for tutorials on each aspect of SIMNet.
+When you contact SIMNet support, you will receive an incident number. If your technology issues are not resolved through McGraw-Hill’s support, email me at alicia.steggs@unl.edu. Include a description of the problem and include the McGraw Hill incident number. For technical issues, you must contact McGraw Hill’s technical support prior to contacting me.  If you do not include an incident number, I will direct you to McGraw Hill’s technical support. SIMNet technical issues cannot be resolved by the College of Business Technical Solutions Center or the UNL Computer Help Center.
+If you experience technical issues that you are not able to resolve, you should document your issues by 1) taking a video of the issue with your phone and sending that video to me or 2) showing me your issue during scheduled office hours.
+You should complete the required exams and assignments well in advance of the due dates to allow you time to resolve any technical issues you may encounter. I will not allow extensions due to technical issues unless you can provide an incident number from McGraw Hill to verify that unresolved technical issues occurred. I will follow up with McGraw Hill to verify that you contacted technical support prior to 5:00 p.m. on the due date of the assignment, and that technical support was unable to resolve your issue.
+
+ Canvas Information
+Canvas is the where course content, grades, and communication will reside for this course.
+
+The URL to access Canvas is: http://canvas.unl.edu 
+For Canvas, passwords, or any other computer-related technical support contact the IT Help Center.
+Phone: 402-472-3970
+Website: http://mysupport.unl.edu/ 
+Submit a support ticket: mysupport@unl.edu 
+ Academic Honesty
+Academic honesty is essential to the existence and integrity of an academic institution. The responsibility for maintaining that integrity is shared by all members of the academic community. The University's Student Code of Conduct addresses academic dishonesty. Students who commit acts of academic dishonesty are subject to disciplinary action and are granted due process and the right to appeal any decision.
+
+College of Business students are held to the standards set by the UNL Student Code of Conduct. In the Student Code of Conduct, acts of dishonesty are specified as, but not limited to: cheating, fabrication or falsification, plagiarism, abuse of academic materials, complicity in academic dishonesty, falsifying grade reports, impermissible collaboration, or misrepresentation to avoid academic work. The penalties for academic dishonesty will be severe and may range from receiving a failing grade on the test or assignment, failing the course in which academic dishonesty took place, or the possibility of expulsion from the university.
+
+ Accessibility Support
+The University strives to make all learning experiences as accessible as possible. If you anticipate or experience barriers based on your disability (e.g. physical disability, learning disability, ADHD, chronic health issue, mental health condition, complications with a pregnancy, long Covid, temporary injury, or other condition), please let me know immediately so that we can discuss options privately. To establish reasonable accommodations, I may request that you register with Services for Students with Disabilities (SSD). If you are eligible for services and register with their office, make arrangements with me as soon as possible to discuss your accommodations so they can be implemented in a timely manner. SSD contact information:  117 Louise Pound Hall.; 402-472-3787
+
+International Technology Access Policy
+The College of Business online classes have been designed to give students the freedom to complete course work from anywhere in the world with reliable internet access; however, a country which has proven to be an exception has been brought to our attention. In the last few years, we have been notified by students taking online courses (particularly during visits to China) that they have not been able to access Canvas and some other websites due to internet censorship stemming from China’s unique regulatory requirements (Google and YouTube are also subject to this censorship). Given that Canvas is the main resource for online class delivery, this could present difficulties especially when dealing with hard deadlines and completing synchronous class activities (virtual meetings, discussions and group work). In addition to Canvas, many online classes are using an online proctoring service which requires access to the company’s website to enable proctoring appointment registration, to make required payments, and to sign on to take the exam. As such, a delay or an unforeseen change in internet access could have adverse effects on a student’s grade. There have been some success stories of students being able to gain access to these restricted websites through the use of VPN, but this does not guarantee access, and, given that it subverts the country’s regulations, is not something we wish to condone. So before you commit to taking online classes, please ensure that the places you plan to visit do not impose any such restrictions on internet access. Issues with internet access will not be accepted as an acceptable excuse for missing deadlines or failing to complete assignments.
+
+Course Summary:
+Course Summary
+Date	Details	Due
+Sun Jan 18, 2026	Assignment PowerPoint - Chapter 1 - Creating and Editing Presentations	due by 11:59pm
+Assignment PowerPoint - Chapter 2 - Illustrating with Pictures and Information Graphics	due by 11:59pm
+Assignment PowerPoint - Chapter 3 - Preparing for Delivery and Using a Slide Presentation	due by 11:59pm
+Assignment PowerPoint Practice Exam	due by 11:59pm
+Mon Jan 19, 2026	Assignment PowerPoint Exam	due by 11:59pm
+Sun Jan 25, 2026	Assignment Access - Chapter 1 - Creating a Database and Tables	due by 11:59pm
+Assignment Access - Chapter 2 - Using Design View, Data Validation, and Relationships	due by 11:59pm
+Assignment Access - Chapter 3 - Creating and Using Queries	due by 11:59pm
+Assignment Access - Chapter 4 - Creating and Using Forms and Reports	due by 11:59pm
+Assignment Access Practice Exam	due by 11:59pm
+Mon Jan 26, 2026	Assignment Access Exam	due by 11:59pm
+Sun Feb 1, 2026	Assignment Word - Chapter 1 - Creating and Editing Documents	due by 11:59pm
+Assignment Word - Chapter 2 - Formatting and Customizing Documents	due by 11:59pm
+Assignment Word - Chapter 3 - Collaborating with Others and Working with Reports	due by 11:59pm
+Assignment Word - Chapter 4 - Using Tables, Columns, and Graphics	due by 11:59pm
+Assignment Word Practice Exam	due by 11:59pm
+Mon Feb 2, 2026	Assignment Word Exam	due by 11:59pm
+Sun Feb 8, 2026	Assignment Excel - Chapter 1 - Creating and Editing Workbooks	due by 11:59pm
+Assignment Excel - Chapter 2 - Working with Formulas and Functions	due by 11:59pm
+Assignment Excel - Chapter 3 - Creating and Editing Charts	due by 11:59pm
+Assignment Excel - Chapter 4 - Getting and Managing Data	due by 11:59pm
+Assignment Excel Exam	due by 11:59pm
+Assignment Excel Practice Exam	due by 11:59pm
+Assignment Course Grade	
