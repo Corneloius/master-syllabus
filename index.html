@@ -283,7 +283,38 @@
             min-width: 600px;
         }
 
+        /* Scroll to top button */
+        .scroll-to-top {
+            position: fixed;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: clamp(40px, 6vw, 52px);
+            height: clamp(40px, 6vw, 52px);
+            z-index: 9999;
+            border: none;
+            border-radius: 50%;
+            background: #333;
+            color: #fff;
+            font-size: 1.25rem;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.2s;
+        }
+        .scroll-to-top.scroll-to-top--visible {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        .scroll-to-top:hover {
+            background: #555;
+        }
+
         @media print {
+            .scroll-to-top {
+                display: none;
+            }
             .nav-links {
                 display: none;
             }
@@ -3302,5 +3333,19 @@ Student ID: [Your Student ID]
         Use Control-F to search by course, assignment, date, or topic.</p>
         
     </div>
+    <button type="button" class="scroll-to-top" aria-label="Scroll to top">↑</button>
+    <script>
+        (function () {
+            var btn = document.querySelector('.scroll-to-top');
+            var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            btn.addEventListener('click', function () {
+                window.scrollTo({ top: 0, behavior: reducedMotion ? 'auto' : 'smooth' });
+            });
+            window.addEventListener('scroll', function () {
+                btn.classList.toggle('scroll-to-top--visible', window.scrollY > 300);
+            }, { passive: true });
+            btn.classList.toggle('scroll-to-top--visible', window.scrollY > 300);
+        })();
+    </script>
 </body>
 </html>
