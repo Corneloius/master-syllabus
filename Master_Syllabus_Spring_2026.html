@@ -284,15 +284,21 @@
             min-width: 600px;
         }
 
-        /* Scroll to top button */
-        .scroll-to-top {
+        /* Fixed FAB stack (Today + scroll to top) */
+        .fab-stack {
             position: fixed;
             right: 8px;
             top: 50%;
             transform: translateY(-50%);
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: flex-end;
+        }
+        .fab {
             width: clamp(40px, 6vw, 52px);
             height: clamp(40px, 6vw, 52px);
-            z-index: 9999;
             border: none;
             border-radius: 50%;
             background: #333;
@@ -300,6 +306,26 @@
             font-size: 1.25rem;
             cursor: pointer;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+        }
+        .fab:hover {
+            background: #555;
+        }
+        .fab.calendar-today {
+            width: auto;
+            min-width: clamp(48px, 18vw, 72px);
+            height: clamp(40px, 6vw, 52px);
+            border-radius: 999px;
+            font-size: clamp(0.65rem, 2vw, 0.8rem);
+            font-weight: bold;
+            padding: 0 10px;
+            opacity: 1;
+            pointer-events: auto;
+        }
+        .scroll-to-top {
             opacity: 0;
             pointer-events: none;
             transition: opacity 0.2s;
@@ -308,8 +334,9 @@
             opacity: 1;
             pointer-events: auto;
         }
-        .scroll-to-top:hover {
-            background: #555;
+        table[aria-label="Semester-at-a-Glance Calendar"] tbody tr.calendar-row--flash {
+            outline: 2px solid #4dabf7;
+            background: rgba(77, 171, 247, 0.12);
         }
 
         /* Example email + quick nav callouts (dark theme: explicit text color) */
@@ -350,7 +377,7 @@
         }
 
         @media print {
-            .scroll-to-top {
+            .fab-stack {
                 display: none;
             }
             .nav-links {
@@ -3387,18 +3414,74 @@ Student ID: [Your Student ID]
         Use Control-F to search by course, assignment, date, or topic.</p>
         
     </div>
-    <button type="button" class="scroll-to-top" aria-label="Scroll to top">↑</button>
+    <div class="fab-stack">
+        <button type="button" class="fab calendar-today" aria-label="Jump to today in semester calendar">Today</button>
+        <button type="button" class="fab scroll-to-top" aria-label="Scroll to top">↑</button>
+    </div>
     <script>
         (function () {
-            var btn = document.querySelector('.scroll-to-top');
+            var stack = document.querySelector('.fab-stack');
+            var btnTop = stack.querySelector('.scroll-to-top');
+            var btnToday = stack.querySelector('.calendar-today');
             var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-            btn.addEventListener('click', function () {
+            var YEAR = 2026;
+            var MONTHS = { Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5, Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11 };
+
+            function parseDateCell(text) {
+                if (!text) return null;
+                text = text.replace(/\s+/g, ' ').trim();
+                var m = text.match(/^([A-Za-z]{3})\s+(\d{1,2})(?:-(\d{1,2}))?$/);
+                if (!m) return null;
+                var mon = MONTHS[m[1]];
+                if (mon === undefined) return null;
+                var d1 = parseInt(m[2], 10);
+                var d2 = m[3] ? parseInt(m[3], 10) : d1;
+                var start = new Date(YEAR, mon, d1, 12, 0, 0, 0);
+                var end = new Date(YEAR, mon, d2, 12, 0, 0, 0);
+                if (isNaN(start.getTime()) || isNaN(end.getTime()) || end < start) return null;
+                return { start: start, end: end };
+            }
+
+            function goToCalendarToday() {
+                var table = document.querySelector('table[aria-label="Semester-at-a-Glance Calendar"]');
+                if (!table) return;
+                var tbody = table.querySelector('tbody');
+                if (!tbody) return;
+                var now = new Date();
+                now.setHours(12, 0, 0, 0);
+                var rows = tbody.querySelectorAll('tr');
+                var found = null;
+                for (var i = 0; i < rows.length; i++) {
+                    var cells = rows[i].querySelectorAll('td');
+                    if (cells.length < 2) continue;
+                    var range = parseDateCell(cells[1].textContent || '');
+                    if (!range) continue;
+                    if (range.start <= now && now <= range.end) {
+                        found = rows[i];
+                        break;
+                    }
+                }
+                if (!found) {
+                    window.alert('No calendar row matches today’s date for Spring ' + YEAR + '.');
+                    return;
+                }
+                var prev = document.querySelector('table[aria-label="Semester-at-a-Glance Calendar"] tbody tr.calendar-row--flash');
+                if (prev) prev.classList.remove('calendar-row--flash');
+                found.classList.add('calendar-row--flash');
+                found.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'center' });
+                window.setTimeout(function () {
+                    found.classList.remove('calendar-row--flash');
+                }, 2000);
+            }
+
+            btnTop.addEventListener('click', function () {
                 window.scrollTo({ top: 0, behavior: reducedMotion ? 'auto' : 'smooth' });
             });
+            btnToday.addEventListener('click', goToCalendarToday);
             window.addEventListener('scroll', function () {
-                btn.classList.toggle('scroll-to-top--visible', window.scrollY > 300);
+                btnTop.classList.toggle('scroll-to-top--visible', window.scrollY > 300);
             }, { passive: true });
-            btn.classList.toggle('scroll-to-top--visible', window.scrollY > 300);
+            btnTop.classList.toggle('scroll-to-top--visible', window.scrollY > 300);
         })();
     </script>
 </body>
