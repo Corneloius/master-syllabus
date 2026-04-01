@@ -312,6 +312,43 @@
             background: #555;
         }
 
+        /* Example email + quick nav callouts (dark theme: explicit text color) */
+        .email-example {
+            background: #111111;
+            color: #e8e8e8;
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 15px;
+            margin: 15px 0;
+            font-family: monospace;
+            font-size: 0.9em;
+            white-space: pre-wrap;
+        }
+        .email-example strong {
+            color: #ffffff;
+        }
+        .quick-nav-callout {
+            margin: 20px 0;
+            padding: 15px;
+            background: #141414;
+            color: #e8e8e8;
+            border: 1px solid #333;
+            border-radius: 6px;
+        }
+        .quick-nav-callout h3 {
+            color: #f5f5f5;
+        }
+        .quick-nav-callout ul {
+            columns: 2;
+            column-gap: 30px;
+        }
+        .quick-nav-callout a {
+            color: #8ab4ff;
+        }
+        .quick-nav-callout a:hover {
+            color: #c5d9ff;
+        }
+
         @media print {
             .scroll-to-top {
                 display: none;
@@ -337,6 +374,19 @@
             }
             .table-wrapper table {
                 min-width: auto;
+            }
+            .email-example,
+            .quick-nav-callout {
+                background: #ffffff !important;
+                color: #000000 !important;
+                border: 1px solid #ccc !important;
+            }
+            .email-example strong,
+            .quick-nav-callout h3 {
+                color: #000000 !important;
+            }
+            .quick-nav-callout a {
+                color: #0066cc !important;
             }
         }
     </style>
@@ -506,7 +556,7 @@
         </ul>
         
         <h3>Example Email Template</h3>
-        <div style="background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 4px; padding: 15px; margin: 15px 0; font-family: monospace; font-size: 0.9em; white-space: pre-wrap;">
+        <div class="email-example">
 <strong>Subject:</strong> BSAD 222 - Question about Résumé Formatting Quiz
 
 Dear Instructor Caldwell,
@@ -533,9 +583,9 @@ Student ID: [Your Student ID]
         <h2 id="course-info-summary">COURSE INFORMATION SUMMARY</h2>
         <p>This section consolidates grading schemes, assignments, materials, and policies for all courses. Use the navigation links below to jump to specific categories.</p>
         
-        <div style="margin: 20px 0; padding: 15px; background-color: #f9f9f9; border-radius: 6px;">
+        <div class="quick-nav-callout">
             <h3>Quick Navigation</h3>
-            <ul style="columns: 2; column-gap: 30px;">
+            <ul>
                 <li><a href="#grading-schemes">Grading Schemes</a></li>
                 <li><a href="#graded-assignments">Graded Assignments</a></li>
                 <li><a href="#course-materials">Course Materials</a></li>
