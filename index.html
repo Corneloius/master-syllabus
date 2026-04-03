@@ -311,8 +311,37 @@
             background: #555;
         }
 
+        /* Jump to today (semester calendar) */
+        .jump-to-today {
+            position: fixed;
+            left: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 9999;
+            padding: 10px 14px;
+            border: none;
+            border-radius: 999px;
+            background: #0066cc;
+            color: #fff;
+            font-size: 0.85rem;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            font-family: Arial, sans-serif;
+        }
+        .jump-to-today:hover {
+            background: #0052a3;
+        }
+        tr.jump-to-today--flash {
+            outline: 3px solid #0066cc;
+            outline-offset: -1px;
+        }
+
         @media print {
             .scroll-to-top {
+                display: none;
+            }
+            .jump-to-today {
                 display: none;
             }
             .nav-links {
@@ -3464,6 +3493,7 @@ Student ID: [Your Student ID]
         Use Control-F to search by course, assignment, date, or topic.</p>
         
     </div>
+    <button type="button" class="jump-to-today" aria-label="Jump to today in semester calendar">Today</button>
     <button type="button" class="scroll-to-top" aria-label="Scroll to top">↑</button>
     <script>
         (function () {
@@ -3476,6 +3506,100 @@ Student ID: [Your Student ID]
                 btn.classList.toggle('scroll-to-top--visible', window.scrollY > 300);
             }, { passive: true });
             btn.classList.toggle('scroll-to-top--visible', window.scrollY > 300);
+        })();
+        (function () {
+            var CAL_YEAR = 2026;
+            var MONTHS = { Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5, Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11 };
+            var calTable = document.querySelector('[aria-label="Semester-at-a-Glance Calendar"]');
+            var todayBtn = document.querySelector('.jump-to-today');
+            if (!todayBtn) {
+                return;
+            }
+
+            function makeDate(mon, day) {
+                var mi = MONTHS[mon];
+                if (mi === undefined) {
+                    return null;
+                }
+                return new Date(CAL_YEAR, mi, day);
+            }
+
+            function dateOnlyMs(d) {
+                return new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime();
+            }
+
+            function parseRowDateRange(text) {
+                text = text.trim();
+                var cross = text.match(/^([A-Za-z]{3})\s+(\d{1,2})-([A-Za-z]{3})\s+(\d{1,2})$/);
+                if (cross) {
+                    var sC = makeDate(cross[1], parseInt(cross[2], 10));
+                    var eC = makeDate(cross[3], parseInt(cross[4], 10));
+                    if (!sC || !eC) {
+                        return null;
+                    }
+                    return { start: sC, end: eC };
+                }
+                var same = text.match(/^([A-Za-z]{3})\s+(\d{1,2})-(\d{1,2})$/);
+                if (same) {
+                    var sS = makeDate(same[1], parseInt(same[2], 10));
+                    var eS = makeDate(same[1], parseInt(same[3], 10));
+                    if (!sS || !eS) {
+                        return null;
+                    }
+                    return { start: sS, end: eS };
+                }
+                var single = text.match(/^([A-Za-z]{3})\s+(\d{1,2})$/);
+                if (single) {
+                    var d0 = makeDate(single[1], parseInt(single[2], 10));
+                    if (!d0) {
+                        return null;
+                    }
+                    return { start: d0, end: d0 };
+                }
+                return null;
+            }
+
+            function findTodayRow() {
+                if (!calTable) {
+                    return null;
+                }
+                var rows = calTable.querySelectorAll('tbody tr');
+                var now = new Date();
+                var todayMs = dateOnlyMs(now);
+                var i;
+                for (i = 0; i < rows.length; i++) {
+                    var cell = rows[i].cells[1];
+                    if (!cell) {
+                        continue;
+                    }
+                    var range = parseRowDateRange(cell.textContent || '');
+                    if (!range) {
+                        continue;
+                    }
+                    var startMs = dateOnlyMs(range.start);
+                    var endMs = dateOnlyMs(range.end);
+                    if (todayMs >= startMs && todayMs <= endMs) {
+                        return rows[i];
+                    }
+                }
+                return null;
+            }
+
+            todayBtn.addEventListener('click', function () {
+                var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                var behavior = reduce ? 'auto' : 'smooth';
+                var row = findTodayRow();
+                var calHeading = document.getElementById('calendar');
+                if (row) {
+                    row.scrollIntoView({ block: 'center', behavior: behavior });
+                    row.classList.add('jump-to-today--flash');
+                    window.setTimeout(function () {
+                        row.classList.remove('jump-to-today--flash');
+                    }, 2000);
+                } else if (calHeading) {
+                    calHeading.scrollIntoView({ block: 'start', behavior: behavior });
+                }
+            });
         })();
     </script>
 </body>
